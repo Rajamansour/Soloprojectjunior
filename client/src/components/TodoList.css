@@ -1,0 +1,44 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mask-custom {
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+}
+
+.gradient-custom-2 {
+    background: linear-gradient(90deg, #2193b0, #6dd5ed);
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.my-4 {
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+}
